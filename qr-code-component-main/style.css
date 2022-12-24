@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ body{
+  background-color:  hsl(212, 45%, 89%);
+ }
+.container{
+  background-color:hsl(0, 0%, 100%);
+  width: 28rem;
+  height: 45rem;
+  margin-left: 35.1rem;
+  margin-top: 3rem;
+  border-radius: 30px;
+  box-shadow: 30px hsl(0, 0%, 100%) 20px hsl(0, 0%, 100%) 30px hsl(0, 0%, 100%) 20px hsl(0, 0%, 100%);
+}
+ img{
+  margin-left: 17px;
+  margin-top: 10px;
+  border-radius: 20px;
+  width:26rem;
+ }
+ h1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  line-height: 2rem;
+  max-width: 400px;
+  margin-left: 20px;
+ }
+ p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  opacity: 20px;
+  margin-top: 20px;
+ }
+
+ @media (max-width: 1440px){
+  .container{
+    margin-left: 19.1rem;
+    width:25rem ;
+    height: 40rem;
+    margin-top: 1rem;
+  }
+  img{
+    width:23rem
+  }
+ }
+
+ @media (max-width: 375px){
+  .container{
+    margin-left: 1.1rem;
+    width:22rem ;
+    height: 40rem;
+    margin-top: 1rem;
+  }
+  img{
+    width:20rem
+  }
+ }
+
+
+ /* mobile responsive  */
+  /* @media (max-width: 378px) { 
+  .container{
+    display: none;
+    margin-left: -2200rem;
+  }
+
+ 
+ @media (max-width: 1444px) {
+   .container {
+  
+     width: 55%;
+     height: 900px;
+     margin-left: -2rem;
+     margin-top: 5rem;
+   }
+ } */

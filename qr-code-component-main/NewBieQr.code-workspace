@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/NewBieQr"
+		},
+		{
+			"path": "."
+		}
+	],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "qr-code-component-main"
+  }
+}
